@@ -1,0 +1,16 @@
+/* @media screen and (min-width: 800px) {
+    .playlist_item {
+        grid-template-columns: 1fr;
+    }
+} */
+@media screen and (max-width: 1015px) {
+    .playlist_item {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .playlist_item {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

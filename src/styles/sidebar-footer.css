@@ -1,0 +1,233 @@
+body {
+    background-color: #000;
+    font-family: var(--font-dm-sans);
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+.sidebar_navigation {
+    background-color: var(--bg-1);
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.logo {
+    background: var(--bg-1);
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar_navigation .logo img {
+    width: 80px;
+}
+
+.sidebar nav ul {
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+
+.sidebar ul li {
+    padding: 10px 0;
+}
+
+.sidebar nav ul li a {
+    color: var(--text-font-1);
+    font-weight: 600px;
+    font-size: 14px;
+}
+
+.library {
+    background: var(--bg-1);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 4px 8px;
+    color: var(--text-font-1);
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.library .library_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.library .library_button {
+    display: flex;
+    margin-right: 10px;
+    color: var(--text-font-1);
+    background-color: transparent;
+    border: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    /* text-decoration: none;
+    text-transform: none; */
+    padding: 20px 10px;
+}
+
+.library .library_button .fa {
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+    padding-right: 8px;
+    color: var(--text-font-1);
+}
+
+.library .library_content .fa-plus {
+    margin: 24px 10px;
+    color: var(--text-font-1);
+}
+
+.section_playlist {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    /* background: #242424; */
+    background: linear-gradient(to right, #800080, #0000FF);
+    color: var(--text-font-1);
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0;
+    padding: 16px 20px;
+    border-radius: 10px;
+}
+
+.section-playlist .section_playlist_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.section_playlist_content .text {
+    display: flex;
+    flex-direction: column;
+    /* display: block; */
+    padding-bottom: 14px;
+    color: var(--text-font-2);
+}
+
+.section_playlist_content .title {
+    font-weight: 700;
+
+}
+.section_playlist_content .subtitle {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.section_playlist_content .section_playlist_button {
+    display: flex;
+    justify-content: center;
+    background: var(--text-font-2);
+    color: #000;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 10px;
+    margin-top: 12px;
+    border: 0px;
+    width: 113px;
+}
+
+.sidebar .cookies {
+    margin: 25px 20px;
+}
+
+.sidebar .cookies a {
+    color: var(--text-font-1);
+    font-weight: 500;
+    font-size: 10px;
+}
+
+.sidebar .cookies a:hover {
+    text-decoration: underline;
+}
+
+.languages .languages_button {
+    align-items: center;
+    background: transparent;
+    /* border: 1px solid #878787; */
+    border: 1px solid var(--text-font-2);
+    color: var(--text-font-2);
+    font-weight: bold;
+    cursor: pointer;
+    width: 170px;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.footer {
+    position: fixed; /* Fixa na tela */
+    bottom: 0; /* Alinha na parte inferior */
+    left: 0; /* Garante que fique alinhado à esquerda */
+    right: 0;
+    padding: 15px 40px;
+    /* width: 100%; /* Ocupa toda a largura da tela */
+    /* height: 85px;  */
+    /* padding: 15px 10px 5px 10px; */
+    display: flex; 
+    justify-content: space-between;
+    background: linear-gradient(to right, #800080, #0000FF);
+}
+
+.footer_content {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer_text_container {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; /* Garante o alinhamento a esquerda */
+    gap: 5px; /* Espaçamento entre titulos e subtitulo */
+    /* margin-left: 20px; */
+}
+
+.footer_content .footer_text {
+    font-weight: 700;
+    color: var(--text-font-2);
+    flex-shrink: 0;
+}
+
+.footer_title {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.footer_subtitle {
+    font-size: 12px;
+}
+
+.footer .footer_button {
+    /* padding: 20px; */
+    padding-right: 50px;
+}
+
+.footer .footer_button button {
+    border-radius: 60px;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 14px 30px;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: 35px;
+    background: #ffffff;
+    color: #000000;
+    flex-shrink: 0;
+}
+
